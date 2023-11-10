@@ -1,0 +1,433 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+    color: black;
+    margin-top: 70px;
+    font-family: 'open sans', sans-serif;
+}
+
+.menu{
+    font-size: 35px;
+    margin-top: 10px;
+    margin-left: 170px;
+    display: inline;
+}
+
+.menu:hover{
+    cursor: pointer;
+    color: rgb(209, 71, 71);
+}
+
+#blue{
+    background-color: #7fc0ca;
+    height: 500px;
+    margin-top: 20px;
+}
+
+.box{
+    box-sizing: border-box;
+    margin-top: 77px;
+    display: block;
+    color: white;
+    padding: 50px;
+    text-align: left;
+}
+
+.para{
+    margin-top: 10px;
+    padding: 20px;
+    margin-left: 90px;
+    font-size: 16px;
+    line-height: 1.7;
+    width: 600px;
+    font-weight: 700;
+    font-family: 'mantserrat' sans-serif;
+}
+
+.type{
+    font-family: 'open sans', sans-serif;
+}
+
+.font{
+    font-family: 'montserrat', sans-serif;
+}
+
+.h1{
+   margin-top: 25px;
+   margin-left: 110px;
+}
+
+.our{
+    margin-top: 38px;
+    margin-left: px;
+}
+
+.button{
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: bold;
+        letter-spacing: 1px;
+        font-size: 18px;
+        margin: 20px;
+        margin-top: 30px;
+        margin-left: 110px;
+        padding: 20px 30px;
+        border-radius: 60px;
+        border-style: none;
+}
+
+.button:hover{
+    background-color: #252521;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+ .head{
+    text-align: center;
+    margin: 50px;
+    margin-bottom: 20px;
+    font-size: 36px;
+ } 
+ 
+ .p{
+    text-align: center;
+    padding: 4px;
+    font-size: 17px;
+    font-weight: 600px
+ }
+
+ .images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding: 4px;
+    }
+
+.img1{
+    width: 340px;
+    height: 340px;
+    border: 2px;
+    margin: 8px;
+    cursor: pointer;
+    transition: 500ms;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.img1:hover{
+    transform: scale(1.05);
+}
+
+.people{
+    margin-top: 40px;
+    background-color: rgb(44, 41, 41);
+    padding: 20px;
+}
+
+.say{
+   color: white;
+   padding: 20px;
+   margin-left: 100px;
+   margin-top: 20px;
+   font-weight: normal;
+   font-size: 1.2rem;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.flex{
+    font-size: 18px;
+    width: 300px;
+    height: 280px;
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+}
+
+.one{
+    text-transform: uppercase;
+    padding: 10px;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+
+.two{
+    padding: 10px;
+    color: rgb(151, 198, 214);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+
+.proin{
+    padding: 10px;
+    line-height: 1.5; 
+    font-weight: lighter;   
+}
+
+.monday{
+    letter-spacing: 1px;
+    color: gray;
+    padding: 10px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.projects{
+   text-align: center;
+   margin-top: 60px;
+   font-weight: normal;
+   font-size: larger;
+}
+
+.para2{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+.para3{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.from{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1.125rem;
+}
+
+.freepic{
+    text-align: center;
+    margin-top: 6px;
+    font-size: 1.125rem;
+}
+
+.images2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    margin-top: 20px;
+}
+
+.img2{
+    width: 340px;
+    height: 330px;
+    border: 2px;
+    margin: 8px;
+    cursor: pointer;
+    background-size: cover;
+    overflow: hidden;
+    transition: 500ms;
+}
+
+.img2:hover{
+    transform: scale(1.05);
+}
+
+/*.helped{
+    background-color: rgb(34, 32, 32);
+    color: white;
+    padding: 100px;
+    margin-top: 30px;    
+}
+
+.walnut{
+    margin-top:0
+    margin-bottom:0
+    }    */
+
+.helped{
+    background-color: rgb(51, 48, 48);
+    color: white;
+    margin-top: 40px;
+    height: 780px;
+}
+
+.container2{
+    display: flex;
+    
+}
+
+.flex2{
+    justify-content: center;
+}
+
+.ten{
+   margin-left: 200px; 
+}
+
+.since{
+    width: 400px;
+    margin-top: 80px;
+}
+
+.bxs-envelope{
+    margin-top: 20px;
+    font-size: 50px;
+    color: #7fc0ca
+}
+
+.address{
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.info{
+   text-transform: uppercase;
+   margin-top: 4px; 
+   font-size: 1.160rem;
+   font-weight: bold;
+}
+
+.hr{
+    margin-top: 13px;
+}
+
+.text{
+    margin-top: 90px;
+    font-size: 17px;
+}
+
+.nine{
+    margin-left: 70px;
+}
+
+.us{
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-top: 80px;
+    font-size: 19px;
+}
+
+.nut{
+    margin-top: 30px;
+    font-size: 18px;
+}
+.hill{
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+.cali{
+    line-height: 1.6;
+    font-size: 1.125rem;
+}
+
+.tell{
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+.el{
+    display: inline;
+    font-size: 18px;
+}
+
+.num{
+    display: inline;
+    font-weight: bold;
+}
+
+.click{
+    margin-top: 160px;
+    font-size: 17px;
+}
+
+.eight{
+    margin-left: 50px;
+}
+
+.social{
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 1.125rem;
+    margin-top: 100px;
+    margin-top: 80px;
+}
+
+.logo{
+    margin-top: 30px;
+}
+
+.bxl-twitter{
+    font-size: 40px;
+    color: #7fc0ca
+}
+
+.bxl-facebook{
+    font-size: 40px;
+    color: #7fc0ca
+}
+
+.bxl-instagram{
+    font-size: 40px;
+    color: #7fc0ca
+}
+
+.boy{
+    display: flex;
+    margin-top: 170px;
+}
+
+.the{
+    text-align: center;
+    margin-top: 150px;
+    font-size: 14px;
+}
+
+.template{
+    text-align: center;
+    font-size: 11.5px;
+    margin-top: 80px;
+}
+
+.tem{
+    display: inline-block;
+}
+
+.tem:hover span{
+    cursor: pointer;
+    color: gray;
+}
+
+.tem:hover, .tem.line:focus{
+    text-decoration: none;
+}
+
+.creat{
+    display: inline-block;
+}
+
+.buil{
+    display: inline-block;
+}
+
+.buil:hover span{
+    cursor: pointer;
+    color: gray;
+}
+
+.buil:hover, .buil.line:focus{
+    text-decoration: none;
+}
+
